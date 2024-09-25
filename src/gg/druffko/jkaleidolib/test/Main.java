@@ -30,7 +30,7 @@ public class Main {
         System.out.println(TextStyle.italic + "Italic Text" + TextColor.reset);
         System.out.println(TextStyle.dim + "Dim Text" + TextColor.reset);
         System.out.println(TextStyle.slowblink + "Slow Blinking text" + TextColor.reset);
-        System.out.println(TextStyle.fastblink + "Fast Blinking text" + TextColor.reset);
+        System.out.println(TextStyle.rapidblink + "Fast Blinking text" + TextColor.reset);
         System.out.println(TextStyle.reverse + "Reversed Text" + TextColor.reset);
         System.out.println(TextStyle.invisible + "Invisible Text" + TextColor.reset);
         System.out.println(TextStyle.underline + "Underlined Text" + TextColor.reset);
