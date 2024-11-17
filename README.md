@@ -1,58 +1,33 @@
-![Repo-Image](https://druffko.gg/github-images/jkaleidolib.webp)
+![Repo-Image](https://massimo.gg/github-images/jkaleidolib.webp)
 
 <div align="center">
 
-![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/druffko/jkaleidolib?include_prereleases)
+# JKaleidolib
 
-![Java Version](https://img.shields.io/badge/java-17-brightgreen)
-![GitHub last commit](https://img.shields.io/github/last-commit/druffko/jkaleidolib)
-![Java Version](https://img.shields.io/badge/build-passing-brightgreen)
-![Java Version](https://img.shields.io/badge/PRs-welcome-brightgreen)
+![License](https://img.shields.io/github/license/massimo-rnd/jkaleidolib)
+![Issues](https://img.shields.io/github/issues/massimo-rnd/jkaleidolib)
+![Forks](https://img.shields.io/github/forks/massimo-rnd/jkaleidolib)
+![Stars](https://img.shields.io/github/stars/massimo-rnd/jkaleidolib)
+![Last Commit](https://img.shields.io/github/last-commit/massimo-rnd/jkaleidolib)
+![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/massimo-rnd/jkaleidolib?include_prereleases)
 
-  <br>
-
-![GitHub All Releases](https://img.shields.io/github/downloads/druffko/jkaleidolib/total)
-![GitHub closed issues](https://img.shields.io/github/issues-closed/druffko/jkaleidolib)
-![GitHub issues](https://img.shields.io/github/issues/druffko/jkaleidolib)
-
-  <h1>JKaleidolib</h1>
-  <p>
-    JKaleidolib is a Java library providing different style additions for command line applications. This might sound pretty useless in the first place (probably because it is), but there might be some cases, where colors actually come in handy.
-  </p>
 </div>
 
----
+## 🚀 Overview
 
-## Table of Contents
-- [About](#about)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+JKaleidolib is a Java library providing different style additions for command line applications. This might sound pretty useless in the first place (probably because it is), but there might be some cases, where colors actually come in handy.
 
----
+## 🎯 Features
 
-## About
+- Colors for Text in your CLI-Application
+- Textstyles for Text in your CLI-Application
+- Wrapper-Methods for easy usage
 
-JKaleidolib is a java library providing different style additions for command line applications. This might sound pretty useless in the first place (probably because it is), but there might be some cases, where colors actually come in handy.
-
----
-
-## Features
-
-- ✅ Colors for Text in your CLI-Application
-- ✅ Textstyles for Text in your CLI-Application
-- ✅ Wrapper-Methods for easy usage
-
----
-
-## Installation
+## 🛠️ Installation
 
 ### Download the latest version
 
-To start off, please head to the [releases page](https://github.com/druffko/jkaleidolib/releases) and download a pre-built jar.
+To start off, please head to the [releases page](https://github.com/massimo-rnd/jkaleidolib/releases) and download a pre-built jar.
 
 *If you don't trust me for some reason, feel free to download the latest released source code and build it your self.*
 
@@ -60,9 +35,7 @@ To start off, please head to the [releases page](https://github.com/druffko/jkal
 
 This process depends on the IDE, so just do it as it is done with your's.
 
----
-
-## Usage
+## 💻 Usage
 
 ### Using colors
 Colors can be used like this:
@@ -113,29 +86,41 @@ System.out.println(Background.green(Lining.underline(Color.blue("Ndêwó!"))));
 System.out.println(Lining.strikethrough(Color.purple("Yassou!")));
 ```
 
+## 🚧 Roadmap
+
+- [ ] Extend with more Styles
+- [ ] Implement customizable Colors
+
+Check out the [open issues](https://github.com/massimo-rnd/jkaleidolib/issues) for more.
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!  
+Feel free to check the [issues page](https://github.com/massimo-rnd/jkaleidolib/issues).
+
+1. Fork the project.
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`).
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`).
+4. Push to the branch (`git push origin feature/AmazingFeature`).
+5. Open a pull request.
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for more details.
+
+## 📜 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## 📊 Repository Metrics
+
+![Repo Size](https://img.shields.io/github/repo-size/massimo-rnd/jkaleidolib)
+![Contributors](https://img.shields.io/github/contributors/massimo-rnd/jkaleidolib)
+![Commit Activity](https://img.shields.io/github/commit-activity/m/massimo-rnd/jkaleidolib)
+
 ---
 
-## Contributing
+### 📞 Contact
 
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository
-2. Create a new branch (`git checkout -b feature-name`)
-3. Commit your changes (`git commit -m 'Add some feature'`)
-4. Push to the branch (`git push origin feature-name`)
-5. Open a pull request
-
----
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-## Contact
-
-- **druffko** - [@druffko](https://twitter.com/druffko) - hi@druffko.gg
-- **Project Link** - https://github.com/druffko/jkaleidolib
-
-Feel free to reach out if you have any questions or suggestions!
+For any inquiries, feel free to reach out:
+- email: [hi@massimo.gg](mailto:hi@massimo.gg)
+- X: [massimo-rnd](https://x.com/massimo-rnd)
+- [Discord](https://discord.gg/wmC5AA6c)
