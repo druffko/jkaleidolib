@@ -1,4 +1,4 @@
-package gg.druffko.jkaleidolib.lib;
+package gg.massimo.jkaleidolib.lib;
 
 public class TextStyle {
 
@@ -18,5 +18,6 @@ public class TextStyle {
     public static final String italicunderline = "\u001B[4:3m";
     public static final String strikethrough = "\u001B[9m";
     public static final String overline = "\u001B[53m";
+    public static final String framed = "\u001B[51m";
 
 }

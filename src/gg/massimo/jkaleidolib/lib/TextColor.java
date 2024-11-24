@@ -1,4 +1,4 @@
-package gg.druffko.jkaleidolib.lib;
+package gg.massimo.jkaleidolib.lib;
 
 public class TextColor {
 
@@ -12,5 +12,14 @@ public class TextColor {
     public static final String purple = "\u001B[35m";
     public static final String cyan = "\u001B[36m";
     public static final String white = "\u001B[37m";
+
+    public static final String lightBlack = "\u001B[90m";
+    public static final String lightRed = "\u001B[91m";
+    public static final String lightGreen = "\u001B[92m";
+    public static final String lightYellow = "\u001B[93m";
+    public static final String lightBlue = "\u001B[94m";
+    public static final String lightMagenta = "\u001B[95m";
+    public static final String lightCyan = "\u001B[96m";
+    public static final String lightWhite = "\u001B[97m";
 
 }

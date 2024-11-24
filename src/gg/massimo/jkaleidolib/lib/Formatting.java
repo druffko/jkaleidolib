@@ -1,4 +1,4 @@
-package gg.druffko.jkaleidolib.lib;
+package gg.massimo.jkaleidolib.lib;
 
 public class Formatting {
 
@@ -31,5 +31,7 @@ public class Formatting {
     public static String invisible(String formatString) {
         return TextStyle.invisible + formatString + reset;
     }
+
+    public static String framed(String formatString) { return TextStyle.framed + formatString + reset;}
 
 }
