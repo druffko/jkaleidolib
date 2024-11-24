@@ -1,4 +1,4 @@
-package gg.druffko.jkaleidolib.lib;
+package gg.massimo.jkaleidolib.lib;
 
 public class Lining {
 

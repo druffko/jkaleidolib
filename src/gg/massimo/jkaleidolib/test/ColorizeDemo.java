@@ -1,9 +1,9 @@
-package gg.druffko.jkaleidolib.test;
+package gg.massimo.jkaleidolib.test;
 
-import gg.druffko.jkaleidolib.lib.Background;
-import gg.druffko.jkaleidolib.lib.Color;
-import gg.druffko.jkaleidolib.lib.Formatting;
-import gg.druffko.jkaleidolib.lib.Lining;
+import gg.massimo.jkaleidolib.lib.Background;
+import gg.massimo.jkaleidolib.lib.Color;
+import gg.massimo.jkaleidolib.lib.Formatting;
+import gg.massimo.jkaleidolib.lib.Lining;
 
 public class ColorizeDemo {
 
@@ -27,6 +27,16 @@ public class ColorizeDemo {
         System.out.println(Color.cyan("Namaste!"));
         System.out.println(Color.white("Salaam!"));
         System.out.println("\n-------------------------\n");
+        System.out.println("And even more Colors!\n");
+        System.out.println(Color.lightBlack("Hello!"));
+        System.out.println(Color.lightRed("Hallo!"));
+        System.out.println(Color.lightGreen("Bonjour!"));
+        System.out.println(Color.lightYellow("Hola!"));
+        System.out.println(Color.lightBlue("Ciao!"));
+        System.out.println(Color.lightMagenta("Olà!"));
+        System.out.println(Color.lightCyan("Namaste!"));
+        System.out.println(Color.lightWhite("Salaam!"));
+        System.out.println("\n-------------------------\n");
     }
 
     static void background() {
@@ -39,6 +49,16 @@ public class ColorizeDemo {
         System.out.println(Background.purple("Sannu!"));
         System.out.println(Background.cyan("Jambo!"));
         System.out.println(Background.white("Ni Hau!"));
+        System.out.println("\n-------------------------\n");
+        System.out.println("And even more backgrounds!\n");
+        System.out.println(Background.lightBlack("Merhaba!"));
+        System.out.println(Background.lightRed("Sain bainuu!"));
+        System.out.println(Background.lightGreen("Nay Hoh!"));
+        System.out.println(Background.lightYellow("Szia!"));
+        System.out.println(Background.lightBlue("Marhaba!"));
+        System.out.println(Background.lightMagenta("Sannu!"));
+        System.out.println(Background.lightCyan("Jambo!"));
+        System.out.println(Background.lightWhite("Ni Hau!"));
         System.out.println("\n-------------------------\n");
     }
 
@@ -61,6 +81,7 @@ public class ColorizeDemo {
         System.out.println(Lining.italicunderline("Musta!"));
         System.out.println(Lining.strikethrough("Salam!"));
         System.out.println(Lining.overline("Pranam!"));
+        System.out.println(Formatting.framed("Framed"));
         System.out.println("\n-------------------------\n");
     }
 
